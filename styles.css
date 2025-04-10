@@ -7,7 +7,6 @@
 .flex-container {
     margin: -8px;
     background-color: #1F2937;
-    /* border: 3px solid green; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,3 +74,61 @@ nav {
     justify-self: center;
     align-self: center;
 }
+
+.flex-container2 {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 50px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.card-container{
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
+.sub {
+    margin-top: 170px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.quote-container {
+    margin: -8px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.quote {
+    text-align:left;
+    width: 825px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotation {
+    margin-top: -45px;
+    padding-left: 510px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+
