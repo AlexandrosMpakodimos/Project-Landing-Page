@@ -21,10 +21,11 @@ nav {
     font-size: 24px;
     color: #F9FAF8;
     margin-right: 438px;
+    font-weight: bold;
   }
 
 .links {
-    color: #E5E7EB;
+    color: #bababa;
     font-size: 18px;
     display: flex;
     gap: 25px;
@@ -52,7 +53,7 @@ nav {
 }
 
 .hero-secondary-text {
-    color: #E5E7EB; 
+    color: #bababa;
     font-size: 18px;
 }
 
@@ -104,6 +105,7 @@ h1 {
     margin-top: 170px;
     font-size: 16px;
     text-align: center;
+    color: #676767;
 }
 
 .quote-container {
@@ -130,5 +132,52 @@ h1 {
     font-weight: 900;
 }
 
+.sign-up-container {
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+}
 
+.sign-up-box {
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.sign-up-text {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+}
+
+#call {
+    margin-bottom: -1px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+#sign {
+    margin-top: -1px;
+    color: #d6d6d6;
+}
+
+#button2 {
+    border: solid #F9FAF8 2px;
+}
+
+footer {
+    margin: -8px;
+    padding-top: 50px;
+    padding-left: 600px;
+    height: 50px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+}
